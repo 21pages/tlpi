@@ -30,7 +30,7 @@ static void print_time (void)
     printf ("%s\n", str_t);
 }
 
-//#define NOSYSCALL
+#define NOSYSCALL
 
 #ifdef NOSYSCALL
 static int myfunc() { return 1; }
